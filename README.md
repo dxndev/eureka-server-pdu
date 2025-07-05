@@ -17,9 +17,7 @@ create database db_cursos;
 create database db_alumnos;
 
 -------------------------------------------------------------------------------------------
-4. Creamos la base de datos para el ms-auth;
+4. Creamos la base de datos para el ms-auth y luego insertamos los datos(no es necesario crear la tabla, esta se crea al ejecutar el servicio);
 create database db_auth;
-
- 4.1 Insertamos estos datos usando la base "db_auth" (la abla se crea al ejecutar el servicio)
       INSERT INTO usuarios (username, password, rol) VALUES ('admin', 'admin123', 'ADMIN');
 -------------------------------------------------------------------------------------------
