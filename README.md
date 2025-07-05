@@ -1,2 +1,25 @@
 # eureka-server-pdu
  Servidor Eureka - Proyecto Sistema Educativo
+
+
+-------------------------------------------------------------------------------------------
+INTRUCCIONES PARA CREAR LAS BASES DE DATOS
+
+1. Creamos la base de datos para el ms-profesores
+create database db_profesores;
+
+-------------------------------------------------------------------------------------------
+2. Creamos la base de datos para el ms-cursos
+create database db_cursos;
+
+-------------------------------------------------------------------------------------------
+3. Creamos la base de datos para el ms-alumnos;
+create database db_alumnos;
+
+-------------------------------------------------------------------------------------------
+4. Creamos la base de datos para el ms-auth;
+create database db_auth;
+
+ 4.1 Insertamos estos datos usando la base "db_auth" (la abla se crea al ejecutar el servicio)
+      INSERT INTO usuarios (username, password, rol) VALUES ('admin', 'admin123', 'ADMIN');
+-------------------------------------------------------------------------------------------
