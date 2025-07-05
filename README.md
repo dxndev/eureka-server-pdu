@@ -21,7 +21,7 @@ create database db_alumnos;
    create database db_auth;
    
 -------------------------------------------------------------------------------------------
-5. insertamos los datos(no es necesario crear la tabla, esta se crea al ejecutar el servicio);
+5. insertamos los datos(no es necesario crear la tabla, esta se crea al ejecutar el servicio)
 INSERT INTO usuarios (username, password, rol) VALUES ('admin', 'admin123', 'ADMIN');
 
 -------------------------------------------------------------------------------------------
